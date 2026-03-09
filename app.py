@@ -10,7 +10,7 @@ st.title("🎙️ Transcritor de Áudio")
 if "transcricao" not in st.session_state:
     st.session_state.transcricao = None
 
-arquivo_audio = st.file_uploader("Selecione um arquivo de áudio", type=["wav", "mp3", "m4a"])
+arquivo_audio = st.file_uploader("Selecione um arquivo de áudio", type=["wav", "mp3", "m4a", "mp4"])
 
 if arquivo_audio is not None:
     st.audio(arquivo_audio)
