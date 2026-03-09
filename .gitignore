@@ -1,0 +1,21 @@
+# Arquivos de Dados e Banco de Dados
+*.duckdb
+*.json
+
+# Documentação de Reuniões/Notas
+ASSUNTO REUNIÃO MACHADO.md
+
+# Scripts de Estudos/Testes (que não fazem parte do app principal)
+matrix.py
+async_await_overview.py
+silver.py
+lists.py
+test.py
+tuples.py
+
+# Pastas de ambiente virtual e cache (sempre bom ter)
+__pycache__/
+.venv/
+venv/
+.env
+Meepyss/TranscriberAI
